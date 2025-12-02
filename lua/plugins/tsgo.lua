@@ -29,6 +29,7 @@ return {
     opts.servers = opts.servers or {}
     opts.servers.tsserver = false
     opts.servers.vtsls = false
+    opts.servers.eslint = false
     -- opts.servers["typescript-tools"] = false -- uncomment if you use it
 
     -- (C) Enable tsgo
