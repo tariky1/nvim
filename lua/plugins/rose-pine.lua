@@ -6,8 +6,8 @@ return {
     name = "rose-pine",
     priority = 1000,
     opts = {
-      variant = "main", -- auto, main, moon, or dawn
-      dark_variant = "main", -- main, moon, or dawn
+      variant = "moon", -- auto, main, moon, or dawn
+      dark_variant = "moon", -- main, moon, or dawn
     },
   },
 }

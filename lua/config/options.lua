@@ -15,3 +15,16 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.b.autoformat = false
   end,
 })
+
+-- Neovide settings
+if vim.g.neovide then
+  vim.g.neovide_scale_factor = 0.8 -- Smaller UI (default is 1.0)
+
+  -- Cursor animation speed (default is 0.13, lower = faster)
+  vim.g.neovide_cursor_animation_length = 0.06
+
+  -- Cursor trail length (default is 0.8, lower = shorter trail)
+  vim.g.neovide_cursor_trail_size = 0.4
+end
+
+vim.g.root_spec = { "cwd" }

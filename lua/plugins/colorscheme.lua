@@ -5,8 +5,8 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- Set your default colorscheme here
-      -- Available options: "rose-pine", "rose-pine-moon", "rose-pine-dawn", "melange", "cyberdream", "everforest"
-      colorscheme = "everforest",
+      -- Available options: "rose-pine", "melange", "cyberdream", "everforest", "nordic"
+      colorscheme = "nordic",
     },
   },
 }
